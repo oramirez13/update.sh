@@ -32,7 +32,7 @@ Pueden ser instalados con:
 
 Uso
 1 - Clonar o descargar el archivo update.sh:
-  wget https://github.com/<TU_USUARIO>/<TU_REPO>/raw/main/update.sh
+  wget https://github.com/oramirez13/update.sh/raw/main/update.sh
 
 2 - Darle permisos de ejecución:
   chmod +x update.sh
