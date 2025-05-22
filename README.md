@@ -43,5 +43,6 @@ Uso
 ¿Qué limpia?
   Paquetes obsoletos (autoremove)
   Caché innecesaria de APT (autoclean y clean)
+
 Autor: orami
 Licencia: Este proyecto está bajo la licencia MIT.
