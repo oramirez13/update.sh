@@ -1,5 +1,6 @@
 # update.sh
-update.sh es una herramienta de actualización automatizada escrita en Bash, diseñada para simplificar el mantenimiento de sistemas basados en Debian (Kali, Ubuntu). Realiza de forma segura y rápida una actualización completa del sistema, con manejo de errores.
+update.sh es una herramienta de actualización automatizada escrita en Bash, diseñada para simplificar el mantenimiento de sistemas basados en Debian (Kali, Ubuntu) o Arch Linux (Manjaro, EndeavourOS, etc.).
+Realiza de forma segura y rápida una actualización completa del sistema, con manejo de errores.
 
 # update.sh - Script de actualización para distros Debian/Ubuntu
 
