@@ -55,4 +55,5 @@ Uso
   Caché innecesaria de APT (autoclean y clean)
 
 Autor: orami
+
 Licencia: Este proyecto está bajo la licencia MIT.
