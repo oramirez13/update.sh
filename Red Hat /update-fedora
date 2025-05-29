@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Banner UwU
+if command -v figlet &>/dev/null && command -v lolcat &>/dev/null; then
+    figlet -f slant 'UwU Orami!' | lolcat
+else
+    echo "==============================="
+    echo "     ORAMI UPDATE SCRIPT       "
+    echo "==============================="
+fi
+
+# Actualización del sistema
+echo "Iniciando la actualización del sistema..."
+
+# Aplicando actualizaciones del sistema
+sudo dnf update -y
+
+# Mensaje de despedida
+echo "Actualización completada."
+echo "Gracias por usar esta app."
