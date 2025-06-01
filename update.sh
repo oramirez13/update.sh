@@ -1,13 +1,4 @@
 #!/bin/bash
-echo "Updating system..."
-sudo apt update -y && sudo apt upgrade -y
-echo "Removing unnecessary packages..."
-sudo apt autoremove -y
-sudo apt autoclean -y
-echo "Cleaning APT cache..."
-sudo apt clean
-echo "All done!":
-#!/bin/bash
 
 # Banner UwU
 if command -v figlet &>/dev/null && command -v lolcat &>/dev/null; then
@@ -20,12 +11,12 @@ fi
 
 # Actualización del sistema
 echo "Iniciando la actualización del sistema..."
+sudo apt update -y && sudo apt upgrade -y
 
-# Actualizando lista de paquetes
-sudo apt update
-
-# Aplicando actualizaciones
-sudo apt upgrade -y
+echo "Eliminando paquetes innecesarios..."
+sudo apt autoremove -y
+sudo apt autoclean -y
+sudo apt clean
 
 # Mensaje de despedida
 echo "Actualización completada."
