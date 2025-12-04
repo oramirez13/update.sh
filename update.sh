@@ -1,23 +1,23 @@
 #!/bin/bash
 
-# Banner UwU
+# Banner
 if command -v figlet &>/dev/null && command -v lolcat &>/dev/null; then
-    figlet -f slant 'UwU Orami!' | lolcat
+    figlet -f slant "Welcome back Neo" | lolcat
 else
     echo "==============================="
-    echo "     ORAMI UPDATE SCRIPT       "
+    echo "       SYSTEM UPDATE TOOL      "
     echo "==============================="
 fi
 
-# Actualización del sistema
-echo "Iniciando la actualización del sistema..."
+# System update
+echo "Starting system update..."
 sudo apt update -y && sudo apt upgrade -y
 
-echo "Eliminando paquetes innecesarios..."
+echo "Removing unused packages..."
 sudo apt autoremove -y
 sudo apt autoclean -y
 sudo apt clean
 
-# Mensaje de despedida
-echo "Actualización completada."
-echo "Gracias por usar esta app."
+# Farewell message
+echo "Update completed successfully."
+echo "Thank you for using this tool."
